@@ -2,8 +2,6 @@ workflow Start-DevVMs {
     param (
         [string]$SubscriptionId = '42dff4cd-ba03-4206-94c5-721389b64c1e',
         [string]$ResourceGroup = 'RG_Monitoring',
-        [string]$TagName = 'Environment',
-        [string]$TagValue = 'Dev'
     )
 
     Write-Output "Connecting to Azure..."
