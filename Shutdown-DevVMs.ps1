@@ -1,9 +1,7 @@
 workflow Shutdown-DevVMs {
     param (
-        [string]$SubscriptionId = 'y42dff4cd-ba03-4206-94c5-721389b64c1e',
-        [string]$ResourceGroup = 'RG_Monitoring',
-        [string]$TagName = 'Environment',
-        [string]$TagValue = 'Dev'
+        [string]$SubscriptionId = '42dff4cd-ba03-4206-94c5-721389b64c1e',
+        [string]$ResourceGroup = 'RG_Monitoring'
     )
 
     Write-Output "Connecting to Azure..."
