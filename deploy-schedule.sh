@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # CONFIGURATION (EDIT THESE)
-RESOURCE_GROUP="RG_Monitoring"
-AUTOMATION_ACCOUNT="eastusvau-6pt-asr-automationaccount"
-LOCATION="East US"
+RESOURCE_GROUP=" "
+AUTOMATION_ACCOUNT=" "
+LOCATION=" "
 SUBSCRIPTION_ID="42dff4cd-ba03-4206-94c5-721389b64c1e"
 
 # Runbook names and script files
